@@ -28,6 +28,7 @@ div {
 
 .img-circle {
   border-radius: 50%;
+  width: 0 auto;
 }
 
 .list-inline {
@@ -110,6 +111,9 @@ ul {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  .img-circle{
+    width: 100px;
   }
   .btn-blue{
     color: red;
